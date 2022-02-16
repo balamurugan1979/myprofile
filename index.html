@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Times, Helvetica, sans-serif;
 }
 
 /* Style the header */
@@ -26,6 +26,7 @@ header {
 nav {
   float: left;
   width: 30%;
+  height: 770px;
   
   background: #ccc;
   padding: 20px;
@@ -41,6 +42,7 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
+  height: 770px;
   background-color: #f1f1f1;
  
 }
@@ -53,25 +55,31 @@ section::after {
 }
 
 table {
-  font-family: arial, sans-serif;
+  font-family: Times, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
 
-td, th {
+td {
   border: 1px solid #dddddd;
   text-align: left;
-  padding: 8px;
 }
 
 /* Style the footer */
-footer {
+h2 {
   background-color: #777;
-  padding: 10px;
+  padding: 2px;
   text-align: center;
   color: white;
 }
 
+h1, th{
+  border: 1px solid #dddddd;
+  background-color: #777;
+  padding: 1px;
+  text-align: center;
+  color: white;
+	
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
@@ -83,22 +91,20 @@ footer {
 </head>
 <body>
 <header>
-  <h2>Balamurugan.G</h2><p>(australian PR holder)</p>
+  <h2>Balamurugan.G</h2><p>(Australia PR holder)</p>
 </header>
 
 <section>
   <nav>
-    <img src="bala.jpg" width="300" height="333">
+    <img src="bala.jpg" width="333" height="333">
     <ul>
-    <li>Phone: +61423587727</li>
     <li>email:balamurugan_g@hotmail.com</li>
-    <li><a href="#">Github</a></li>
-     <li><a href="#">LinkedIn</a></li>
+    <li>Phone: +61423587727 <a href="https://www.linkedin.com/in/balamurugan-gnanasekaran-6bb0bb17/">LinkedIn</a></li>
     </ul>
   </nav>
   <article>
-    <h1 style="background-color:blue; width: 100%">Professional Summary</h1>
-    <bl>
+    <h1>Professional Summary</h1>
+<bl>
 <li>Overall 16+ years of experience in Software Development, Modeling & Automation, Application Support, DevOps, Data Scientist.</li>
 <li>Handled various roles like Technical Architect, Technical Lead, Technical engineer, Software Engineer, and Application Support Engineer.</li>
 <li>Patent filed on my own software “AN APPARATUS FOR PERFORMING ARITHMETIC OPERATIONS”. </li>
@@ -127,8 +133,8 @@ footer {
 </bl>
   </article>
 </section>
-<section>
-<h1 style="background-color:grey; width: 100%">Technical Skill Sets</h1>
+<section style="background-color:#ccc"; width: 100%">
+<h1 style="background-color:"; width: 100%">Technical Skill Sets</h1>
 <table>
 <tr><td>Language Programming: </td><td>Perl, Python, Ruby, Shell, XML, XSLT, XPATH, HTML, CSS</td></tr>
 <tr><td>Technologies / Framework</td><td>AWS, Hadoop / Rails</td></tr>
@@ -139,8 +145,8 @@ footer {
 <tr><td>Application Servers</td><td>Tomcat</td></tr>
 </table>
 </section>
-<section>
-    <h1 style="background-color:blue; width: 100%">PROFESSIONAL EXPERIENCE</h1>
+<section style="background-color:#ccc"; width: 100%">
+    <h1 style="background-color:"; width: 100%">Professional Experiance</h1>
 <bl>
 <li>Technical Architect at Msys technologies from May 2020 to Mar 2022</li>
 <li>Software engineer (Python and VB),  NSW, Australia from Jan 2020 to Feb 2020</li>
@@ -152,8 +158,8 @@ footer {
 <li>CNC/VMC Programmer at Delta Control Systems, Ambattur India from Nov 2002 to June 2005.</li>
 </bl>
 </section>
-<section>
-<h1>CERTIFICATIONS, AWARDS AND ONSITE</h1>
+<section style="background-color:#ccc"; width: 100%">
+<h1 style="background-color:"; width: 100%">Certifications, Awards and Onsite</h1>
 <bl>
 <li>AWS certified solution architect – associate level (refer LinkedIn profile)</li>
 <li>TexAngel award 2008 for excellent performance. (Textech)</li>
@@ -161,10 +167,12 @@ footer {
 <li>Worked at client location (North Carolina, US) for few months.</li>
 </bl>
 </section>
+</section>
 <footer>
   <h2>Projects</h2>
 </footer>
-<section>
+</section>
+<section style="background-color:lightGrey; width: 100%">
 <table>
 <tr><th>PROJECT/CLIENT</th>	<th>EDA ON EQUITAS / EQUITAS – ML PROJECT</th></tr>
 <tr><td>Company /Role:</td>	<td>Msys Technologies / Data Scientist</td></tr>                                                                                   	
@@ -175,9 +183,8 @@ footer {
 <tr><td>Technologies / libraries	</td><td> Python 2.7, Pandas, numpy, Matplotlib, Seaborn</td></tr>
 <tr><td>Responsibilities	</td><td> Data collection, preprocessing and analysis, Model building, visualization</td></tr>
 <table>
-</section>
-	
-<section>
+</section></br>
+<section style="background-color:lightGrey; width: 100%">
 <table>
 <tr><th>PROJECT/CLIENT</th>	<th>PNFC BULK UPLOAD TEMPLATE / NSW TREASURY</th></tr>
 <tr><td>Company /Role:</td>	<td>NSW Treasury / Senior Software Engineer (Australia)</td></tr>                                                                         
@@ -189,9 +196,7 @@ footer {
 <tr><td>Responsibilities	</td><td> Template Creation – VB excel, Data manipulation, Data Validation and DB update  – Python and Oracle</td></tr>
 <table>
 </section>
-	
-	
-<section>
+<section style="background-color:lightGrey; width: 100%">
 <table>
 <tr><th>PROJECT/CLIENT</th>	<th>NIMBLE CLOUD VOLUME(HPE CV) / NIMBLE STORAGE</th></tr>
 <tr><td>Company /Role:</td>	<td>Msys / Senior Software Engineer (Australia)</td></tr>                                                                                 
@@ -200,7 +205,7 @@ footer {
 <tr><td>Responsibilities</td><td>Developing RestAPI & CLI tool</td></tr>
 <table>
 </section>	
-<section>
+<section style="background-color:lightGrey; width: 100%">
 <table>
 <tr><th>PROJECT/CLIENT</th>	<th>STORAGE MONITORING SYSTEM / NIMBLE STORAGE</th></tr>
 <tr><td>Company /Role:</td>	<td>Msys / Technical Architect</td></tr>                                                                                   	
@@ -211,8 +216,7 @@ footer {
 <tr><td>Responsibilities</td><td>Developing RestApi & implementing UI Component</td></tr>
 <table>
 </section>
-
-<section>
+<section style="background-color:lightGrey; width: 100%">
 <table>
 <tr><th>PROJECT/CLIENT</th><th>ETL  DEVELOPMENT OF CIM RELATED SOFTWARE’S / SEMPRA, TELSTRA, BOFA, COMCAST, ATTABS, DUKE ENERGY, COMCAST, VERIZON TELECOM, T-MOBILE</th></tr>
 <tr><td>Company /Role:</td>	<td>Servion Global Solutions / Senior Software Engineer –ETL development</td></tr>                                                               
@@ -226,19 +230,15 @@ As a modeler / developer, our activity is to,
 4.	Pre audit the data, whether model can be made or not for the sample data. Understanding Logs and correlate with the system documents like Call flow if provided. 
 5.	Identify log issues.
 6.	Prepare the model summary document based on the proposal document. Explains about the business logic is going to be used to represent the model in better way.
-
 7.	Convert physical record into a format usable by ClickFox CEA dashboard. Physical record is also referred to as the raw log and logical record is referred as JSON logs.
 8.	Implement the changes from the feedback provided by business analyst. Validate the final model and deliver client’s expected results.
 Shell scripts usage: Repository creation, raw log download, folder and files handling, CEA loading. 
 Perl script usage: Raw data manipulation, raw data to JSON structure conversion and data migration to DB for accessing the data easily through CEA.</td></tr>
 <tr><td>Technologies / libraries	</td><td> Customer Experience Analytics (CEA), Putty, Salesforce</td></tr>
-<tr><td>Worked on the entire SDLC lifecycle of the projects starting from the Analysis, design, development, testing & maintenance</td></tr>
+<tr><td>Responsibilities</td><td>Worked on the entire SDLC lifecycle of the projects starting from the Analysis, design, development, testing & maintenance</td></tr>
 <table>
 </section>	
-</body>
-</html>
-
-<section>
+<section style="background-color:lightGrey; width: 100%">
 <table>
 <tr><th>PROJECT/CLIENT</th><th>APPLICATION SUPPORT / CLICKFOX, U.S</th></tr>
 <tr><td>Company /Role:</td>	<td>Servion Global Solutions / Senior Software Engineer – Application Support</td></tr>                                                           
@@ -254,8 +254,7 @@ Communicating to the clients through calls and email
 </td></tr>
 <table>
 </section>
-
-<section>
+<section style="background-color:lightGrey; width: 100%">
 <table>
 <tr><th>PROJECT/CLIENT</th><th>X-HTML TO E-PUB PACKAGE CREATION / Diacritech Technologies</th></tr>
 <tr><td>Company /Role:</td>	<td>Diacritech Technologies / Software Engineer – Developer (Automation)</td></tr>                                                           
@@ -269,8 +268,7 @@ E-Books in the e-pub format will be able to read them using a wide range of soft
 <tr><td>Achievements</td><td>The project is very helpful to the conversion team to generate the e-pub format quickly with very less manual intervention.</td></tr>
 <table>
 </section>
-
-<section>
+<section style="background-color:lightGrey; width: 100%">
 <table>
 <tr><th>PROJECT/CLIENT</th><th>IN-HOUSE XML AUTOMATION AND TOOL DEVELOPMENT/DIACRITECH TECHNOLOGIES</th></tr>
 <tr><td>Company /Role:</td>	<td>Diacritech Technologies / Software Engineer – Developer (Automation)</td></tr>                                                           
@@ -283,8 +281,7 @@ Elesvier_validation: This validation includes Folder & file Validation, remove j
 <tr><td>Achievements</td><td>Manual work was reduced with great extent improving the productivity.</td></tr>
 <table>
 </section> 
-
-<section>
+<section style="background-color:lightGrey; width: 100%">
 <table>
 <tr><th>PROJECT/CLIENT</th><th>ONE TOUCH I-PAD / HACHETTE</th></tr>
 <tr><td>Company /Role:</td>	<td>Textech International Pvt Ltd / Technical Engineer</td></tr>                                                           
@@ -297,7 +294,7 @@ E-Books in the e-pub format will be able to read them using a wide range of soft
 <tr><td>Achievements</td><td>This automation makes e-pub creation in single click.</td></tr>
 <table>
 </section> 
-<section>
+<section style="background-color:lightGrey; width: 100%">
 <table>
 <tr><th>PROJECT/CLIENT</th><th>WEB SCRAPING (WHERE-ON-EARTH-ID) / LONELY PLANET, AUSTRALIA</th></tr>
 <tr><td>Company /Role:</td><td>Textech International Pvt Ltd / Technical Engineer</td></tr>                                                           
@@ -308,7 +305,7 @@ E-Books in the e-pub format will be able to read them using a wide range of soft
 <tr><td>Achievements</td><td>This project developed is very useful for the Service allows you to look up the unique identifier - called the Where on Earth ID, or WOEID - for almost any named place on the Earth</td></tr>
 <table>
 </section>
-<section>
+<section style="background-color:#ccc; width: 100%">
 <table>
 <tr><th>ACADEMIC CHRONICLE</th></tr>
 <tr><td>Degree / University</td><td>Bachelor of Engineering / V R S College of Engineering & Technology, Madras University</td></tr>       
@@ -319,7 +316,7 @@ E-Books in the e-pub format will be able to read them using a wide range of soft
 <tr><td>Computer Aided Design (CAD)</td><td>CSC computers</td></tr>
 </table>
 </section>
-<section>
+<section style="background-color:#ccc; width: 100%">
 <table>
 <tr><th>PERSONAL PROFILE</th></tr>
 <tr><td>Father Name</td><td>Gnanasekaran. R</td></tr>       
